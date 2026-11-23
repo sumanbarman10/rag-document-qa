@@ -2,6 +2,12 @@
 
 An end-to-end Retrieval-Augmented Generation (RAG) application that enables users to ask questions about PDF documents and receive context-grounded answers with source and page citations.
 
+## Application Demo
+
+![RAG Document Assistant - Streamlit Application](screenshots/rag-document-assistant.png)
+
+*The application answering a question about the Attention Is All You Need research paper using hybrid retrieval and Groq GPT-OSS 20B.*
+
 ## Project Overview
 
 This project implements a hybrid RAG pipeline combining dense vector retrieval, sparse keyword retrieval, Reciprocal Rank Fusion (RRF), and cross-encoder reranking to improve document retrieval quality.
@@ -34,7 +40,7 @@ The retrieved context is passed to Groq's GPT-OSS 20B model to generate answers 
                 Hugging Face
                   Embeddings
                        |
-                 FAISS Index
+                  FAISS Index
                        |
 User Query ------------+
       |
@@ -56,7 +62,7 @@ User Query ------------+
                    |
           Source Citations
                    |
-             Streamlit UI
+              Streamlit UI
 ```
 
 ## Technology Stack
@@ -107,20 +113,12 @@ rag-document-qa/
 ├── .gitignore
 ├── .env.example
 │
+├── screenshots/
+│   └── rag-document-assistant.png
+│
 ├── data/
 │
 ├── src/
-│   ├── ingestion.py
-│   ├── chunking.py
-│   ├── embeddings.py
-│   ├── vector_store.py
-│   ├── bm25_retriever.py
-│   ├── hybrid_retrieval.py
-│   ├── reranker.py
-│   ├── advanced_retrieval.py
-│   ├── groq_client.py
-│   ├── generation.py
-│   └── rag_pipeline.py
 │
 ├── evaluation/
 │   ├── ground_truth.json
@@ -178,3 +176,5 @@ Open the local Streamlit URL displayed in the terminal.
 ## Current Status
 
 The end-to-end RAG pipeline, hybrid retrieval benchmark, Groq-based answer generation, source citations, and Streamlit interface have been implemented and tested locally.
+
+Cloud hosting is currently deferred.
