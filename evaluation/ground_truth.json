@@ -1,0 +1,28 @@
+
+[
+  {
+    "question": "What is the attention mechanism in the Transformer architecture?",
+    "relevant_pages": [3, 4],
+    "relevant_chunk_starts": []
+  },
+  {
+    "question": "What is the difference between self-attention and multi-head attention?",
+    "relevant_pages": [2, 4],
+    "relevant_chunk_starts": []
+  },
+  {
+    "question": "Why does the Transformer use positional encoding?",
+    "relevant_pages": [5, 6],
+    "relevant_chunk_starts": []
+  },
+  {
+    "question": "What are the advantages of self-attention compared with recurrent layers?",
+    "relevant_pages": [6, 7],
+    "relevant_chunk_starts": []
+  },
+  {
+    "question": "What is scaled dot-product attention?",
+    "relevant_pages": [3, 4],
+    "relevant_chunk_starts": []
+  }
+]

@@ -1,0 +1,5 @@
+method,hit_rate,recall,mrr
+FAISS,0.8,0.5,0.6
+BM25,1,0.8,0.7333333333333333
+Hybrid_RRF,1,0.6,0.7
+Hybrid_RRF_Reranker,0.8,0.6,0.8

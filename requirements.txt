@@ -1,6 +1,14 @@
+streamlit
 pymupdf
 langchain-core
 langchain-text-splitters
 transformers
 sentence-transformers
 python-dotenv
+langchain-huggingface
+langchain-community
+faiss-cpu
+rank-bm25
+groq
+torch
+
